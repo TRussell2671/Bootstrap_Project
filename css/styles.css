@@ -54,7 +54,7 @@ header h2 {
 }
 
 #bkgd-pet {
-	background: #fff url('../img/dog.jpeg') no-repeat center center;
+	background: #fff url('../img/dog.jpeg') no-repeat top center;
 	background-size: cover;
 	min-height: 450px;
 }
