@@ -29,7 +29,7 @@ html, body {
 }
 
 /*
-	Header 
+	Header
 */
 
 header {
@@ -134,6 +134,10 @@ footer #phone:hover, footer #email a:hover {
 	color: #fff;
 }
 
+footer i {
+	color: #527cf6;
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -144,6 +148,9 @@ footer #phone:hover, footer #email a:hover {
 		border-right: 1px solid #AAA;
 		height: 500px;
 	}
+	.rates-bkgd {
+		border: none;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -151,6 +158,9 @@ footer #phone:hover, footer #email a:hover {
 	.get-started-bkgd, .visit-bkgd, .rates-bkgd {
 		border-right: 1px solid #AAA;
 		height: 500px;
+	}
+	.rates-bkgd {
+		border: none;
 	}
 }
 
